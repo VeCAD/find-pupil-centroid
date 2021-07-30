@@ -65,7 +65,7 @@ chmod +x run.sh
    * pupil_detect.py - main function
    * pre_processing.py converts the RGB image to grayscale, followed by binary threshold to assign 
      the region of interest as black and non interest as white. This image is then sent through a 
-     morphological and median filter to reduce the noise blobs or shapes around the pupil.
+     morphological and median filter to reduce the noisy blobs or shapes.
    * blob_detection.py uses the pre-processed frame to single out the pupil based on the detector
      parameters which results in keypoints (approx pupil center and size)
    * labeler.py labels the image based on the keypoints and indicators given
