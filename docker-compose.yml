@@ -9,5 +9,4 @@ services:
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /root/.Xauthority:/root/.Xauthority
-      - ${PWD}/pupil_detect_source:/pupil_detect_source
-      - ${PWD}/test_videos:/test_videos
+      - ${PWD}:/pupil_detect

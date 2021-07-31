@@ -2,11 +2,11 @@ import time
 import cv2
 import argparse
 import numpy as np
-from get_display_frame import InputStream
-from get_display_frame import DisplayStream
-from preprocessing import PreProcess
-from blob_detection import BlobDetect
-from labeler import Labeler
+from logic_modules.get_display_frame import InputStream
+from logic_modules.get_display_frame import DisplayStream
+from logic_modules.pre_processing import PreProcess
+from logic_modules.blob_detection import BlobDetect
+from logic_modules.labeler import Labeler
 
 class PupilDetect():
     """
@@ -65,7 +65,7 @@ def main():
     Default video python3 pupil_detect.py
     """
     try:
-        default_video = "/test_videos/sample.mkv"
+        default_video = "/pupil_detect/test_videos/sample.mkv"
         parser = argparse.ArgumentParser()
         parser.add_argument('--video_file', nargs='?', const=1, type=str, default=default_video)
         args = parser.parse_args()
