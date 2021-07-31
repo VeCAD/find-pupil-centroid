@@ -8,11 +8,11 @@ DOCUMENTATION
 ├── /logic_modules           - Contains pupil detect logic py modules
 ├── docker-compose.yml       - compose yml 
 ├── Dockerfile               - Dockerfile 
-├── run.sh                   
+├── run.sh                   - Run program script
 ├── get_videos.sh            - Get sample video script
 ├── requirements.txt         - pip3 install txt
 ├── README.md                - Guide to use this repo
-├── pupil_detect.py          - Main entrypoint function
+├── pupil_detect.py          - Main function
 ```
 
 # 2. Setup Guide
