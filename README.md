@@ -94,7 +94,7 @@ Press Q to quit anytime
 2. Total acurracy is assumed here as succesful pupil detected frames over total frames processed.
 
 3. FPS in pupil_detect.py is defined as inverse of end-end time taken to process a single frame (from capture to display)
-   * Core i-7  80000 series Desktop CPU ~30fps
+   * Core i-7 8000 series Desktop CPU ~30fps
    * Jetson Nano ~7fps
 
 4. sample_output_img folder contains sample images of the detector output
